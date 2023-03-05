@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  background-color: rgba(177, 185, 185, 0.606);
+}
+
+
+.wrapper {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width:1000px;
+  height: 900px;
+  background-color: rgba(177, 185, 185, 0.606);
+  transition:background-color 1s ;
+}
+
+
+.calc-wrapper {
+  background-color: black;
+  width:400px;
+  height:600px;
+  border-radius: 30px;;
+  display: flex;
+  flex-direction: column;
+  border: 8px solid black;
+  justify-content: space-between;
+  padding:30px;
+  position:relative;
+  box-shadow: -12px 11px 8px 0px rgba(34, 60, 80, 0.4);
+  
+
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+
+
+
+}
+
+.btn {
+  display: felx;
+  justify-content: center;
+  align-content: center;
+ 
+  text-align: center;
+   width:92px;
+   height: 92px;
+   background-color: rgb(72, 81, 98);
+   border: 1px solid black;
+   border-radius: 50px;;
+   text-align: center;
+   color:white;
+   font-size:50px;
+   font-family: Arial, Helvetica, sans-serif;
+   margin:3px;
+  
+   
+}
+
+
+.btn:hover {
+  background-color: aliceblue;
+  color: black;
+  transition: background-color .8s, color  .8s
+}
+
+input {
+ 
+
+  height: 120px;
+  border:none;
+  margin-top: 30px;
+  background-color: rgba(140, 140, 140, 0.429);
+  border:2px white solid;
+  font-size: 80px;
+  color:white;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: right;
+  margin-bottom: 15px;
+
+}
+.answer {
+  background-color: orange;
+  width:2000px;
+  height:72px;
+  margin-top: 10px;
+}
+
+.all-buttons-wrapper {
+  display:flex;
+  flex-direction: row;
+}
+
+.orange {
+  background-color:orange;
+;
+
+}
+
+.clear {
+ width:190px;
+ height:90px;
+}
+
+
+
+img {
+  position: absolute;
+  width:80px;
+  height:80px;
+  border-radius: 90px;
+  top: 70px;
+  left:200px;
+  opacity:0;
+  transition: opacity .4s;
+
+  
+}
+
+.open {
+  opacity:1;
+}
+
+
+.whiteLight {
+  background-color: aliceblue;
+  color:black
+}
+
+.red {
+  background-color: red;
+}
